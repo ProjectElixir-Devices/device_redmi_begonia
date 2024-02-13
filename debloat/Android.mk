@@ -11,6 +11,8 @@ LOCAL_OVERRIDES_PACKAGES := \
     Camera2 \
     CarrierLocation \
     CarrierMetrics \
+    CalendarGooglePrebuilt \
+    Chrome \
     ConnMO \
     ConnMetrics \
     DCMO \
@@ -20,6 +22,7 @@ LOCAL_OVERRIDES_PACKAGES := \
     Drive \
     Gallery2 \
     GCS \
+    GoogleTTS \
     GoogleCamera \
     Maps \
     Music \
@@ -33,6 +36,7 @@ LOCAL_OVERRIDES_PACKAGES := \
     PixelLiveWallpaperPrebuilt \
     PlayAutoInstallConfig \
     PrebuiltGmail \
+    Photos \
     RecorderPrebuilt \
     SCONE \
     ScribePrebuilt \
@@ -45,11 +49,12 @@ LOCAL_OVERRIDES_PACKAGES := \
     SprintHM \
     USCCDM \
     Videos \
+    Velvet \
     VZWAPNLib \
     VzwOmaTrigger \
     YouTube \
     YouTubeMusicPrebuilt
 LOCAL_UNINSTALLABLE_MODULE := true
-LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_CERTIFICATE := platform
 LOCAL_SRC_FILES := /dev/null
 include $(BUILD_PREBUILT)
