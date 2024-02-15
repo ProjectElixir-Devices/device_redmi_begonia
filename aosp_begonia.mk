@@ -43,7 +43,7 @@ ELIXIR_BUILD_TYPE := OFFICIAL
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SUPPORTS_CALL_RECORDING := true
 TARGET_BUILD_APERTURE_CAMERA := true
-FORCE_LAWNCHAIR := true
+EXCLUDE_LAWNCHAIR := true
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := begonia
